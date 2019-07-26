@@ -1,0 +1,18 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "description": "some utils",
+  "author": "peakchen90 <chenjie@servyou.com.cn>",
+  "homepage": "https://github.com/peakchen90/mini-framework/tree/master/packages/utils#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peakchen90/mini-framework.git"
+  },
+  "scripts": {
+  },
+  "bugs": {
+    "url": "https://github.com/peakchen90/mini-framework/issues"
+  }
+}

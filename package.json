@@ -1,9 +1,14 @@
 {
   "name": "mini-framework",
-  "description": "自己实现的Mini版框架",
   "private": true,
-  "scripts": {
-  },
+  "description": "自己实现的Mini版框架",
+  "keywords": [
+    "mini framework",
+    "react",
+    "vue",
+    "redux"
+  ],
+  "scripts": {},
   "author": "peakchen90 <1558267774@qq.com>",
   "repository": {
     "type": "git",
@@ -11,8 +16,26 @@
   },
   "homepage": "https://github.com/peakchen90/mini-framework",
   "bugs": "https://github.com/peakchen90/mini-framework/issues",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "packages/**/*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "@babel/core": "^7.5.5",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.0.1",
+    "lerna": "^3.16.4",
+    "lint-staged": "^9.2.1"
   }
 }
