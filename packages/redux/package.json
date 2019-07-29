@@ -5,7 +5,7 @@
   "keywords": [
     "redux"
   ],
-  "author": "peakchen90 <chenjie@servyou.com.cn>",
+  "author": "peakchen90 <1558267774@qq.com>",
   "homepage": "https://github.com/peakchen90/mini-framework/tree/master/packages/redux#readme",
   "license": "MIT",
   "main": "lib/redux.js",
